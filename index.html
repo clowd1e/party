@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="section top-image"></div>
+      <div class="section main-div">
+        <h1>Party Invite</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis sem odio. Sed commodo vestibulum leo, sit amet tempus odio consectetur in. 
+        </p>
+        <span>* Обязательно</span>
+      </div>
+      <form action="">
+        <div class="section form-main-div">
+          <p>What is your name?</p>
+          <input type="text" placeholder="Мой ответ" name="Name" />
+        </div>
+        <div class="section form-second-div">
+          <h3>Can you attend? <span>*</span></h3>
+          <ul>
+            <li>
+              <input id="attend-yes" type="radio" value="yes" name="attend" />
+              <label for="attend-yes">Yes, I'll be there</label>
+            </li>
+            <li>
+              <input id="attend-no" type="radio" value="no" name="attend" />
+              <label for="attend-no">Sorry, can't make it</label>
+            </li>
+          </ul>
+        </div>
+        <div class="section form-main-div">
+          <p>How many of you are attending?</p>
+          <input type="text" placeholder="Мой ответ" name="How-many" />
+        </div>
+        <div class="section form-four-div">
+          <h3>What will you be bringing?</h3>
+          <p>Let us know what kind of dish(es) you'll be bringing</p>
+          <ul>
+            <li>
+              <input id="mains" type="checkbox" value="1" name="four-answer"/>
+              <label for="mains">Mains</label>
+            </li>
+            <li>
+              <input id="salad" type="checkbox" value="2" name="four-answer" />
+              <label for="salad">Salad</label>
+            </li>
+            <li>
+              <input id="dessert" type="checkbox" value="3" name="four-answer" />
+              <label for="dessert">Dessert</label>
+            </li>
+            <li>
+              <input id="drinks" type="checkbox" value="4" name="four-answer" />
+              <label for="drinks">Drinks</label>
+            </li>
+            <li>
+              <input id="Sides/Appetizers" type="checkbox" value="5" name="four-answer" />
+              <label for="Sides/Appetizers">Sides/Appetizers</label>
+            </li>
+            <div class="hide">
+              <li>
+                <input id="drugoe" type="checkbox" value="6" name="four-answer" />
+                <label for="drugoe">Другое:</label>
+              </li>
+              <li>
+                <input id="hide-input" type="text" name="four-answer" />
+              </li>
+            </div>
+          </ul>
+        </div>
+        <div class="section form-main-div">
+          <p>Do you have any allergies or dietary restrictions?</p>
+          <input type="text" placeholder="Мой ответ" name="Do-you" />
+        </div>
+        <div class="section form-main-div">
+          <p>What is your email address?</p>
+          <input type="text" placeholder="Мой ответ" name="What-is" />
+        </div>
+        <button class="submit-button">Отправить</button>
+      </form>
+      <footer class="main-footer">
+        <p>Никогда не используйте формы Google для передачи паролей.</p>
+        <div>
+          <p>Компания Google не имеет никакого отношения к этому контенту.
+          <a href="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc2V0AKmTKJFo648c8xAEy3xPDTyuqljq5L6yI_iYFt1bSsPw/reportabuse?source=https://docs.google.com/forms/d/e/1FAIpQLSc2V0AKmTKJFo648c8xAEy3xPDTyuqljq5L6yI_iYFt1bSsPw/viewform">Сообщение о нарушении</a> -
+          <a href="https://policies.google.com/terms">Условия использования</a> -
+          <a href="https://policies.google.com/privacy">Политика конфиденциальности</a>
+          </p>
+          <div class="footer-div">
+            <a class="a1" href="https://www.google.com/forms/about/?utm_source=product&utm_medium=forms_logo&utm_campaign=forms">Google <span>Формы</span></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
